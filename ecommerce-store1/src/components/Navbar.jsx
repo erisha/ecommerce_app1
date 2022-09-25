@@ -68,7 +68,7 @@ const Navbar = () => {
         </Left>
 
         <Center>
-          <Logo>Store Name.</Logo>
+          <Logo>What's Tea ?</Logo>
         </Center>
 
         <Right>
