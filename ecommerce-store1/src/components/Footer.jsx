@@ -87,7 +87,7 @@ const Footer = () => {
             <Logo>What's Tea w/ the Stars</Logo>
         
             <Desc>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quis enim lobortis scelerisque fermentum dui. Mi quis hendrerit dolor magna eget est lorem ipsum dolor. Nunc faucibus a pellentesque sit. Sit amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </Desc>
             <SocialMedia>
 
