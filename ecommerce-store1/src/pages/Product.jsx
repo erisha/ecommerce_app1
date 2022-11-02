@@ -1,3 +1,5 @@
+
+import { Add, Remove } from "@mui/icons-material";
 import styled from "styled-components"
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
@@ -51,7 +53,41 @@ const FilterSign = styled.select`
     margin-left: 10px;
     padding: 5px;
 `;
-const FilterSignOption= styled.option`  `;
+const FilterSignOption = styled.option`  `;
+
+const AddContainer = styled.div`
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+`;
+const AmountContainer = styled.option`
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+
+`;
+const Amount = styled.span`
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+`;
+const Button = styled.button`
+    padding: 15px;
+    border: 2px solid teal;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+    &:hover{
+        background-color: #f8f4f4;
+    }
+`;
 
 const Product = () => {
   return (
@@ -64,7 +100,7 @@ const Product = () => {
             </ImgContainer>
             <InfoContainer>
                 <Title>Cancer</Title>
-                <Description>Camomile Tea with Provence Lavender <br></br>57gs/2oz
+                <Description>Chamomile Tea with Provence Lavender <br></br>57gs/2oz
                 </Description>
                 <Price>$8.88</Price>
                 <FilterContainer>
@@ -87,15 +123,20 @@ const Product = () => {
                      </Filter>
                    
                 </FilterContainer>
-
-               
+                <AddContainer>
+                    <AmountContainer>
+                        <Remove />
+                        <Amount>1</Amount>
+                        <Add />
+                    </AmountContainer>
+                    <Button>ADD TO CART</Button>
+                </AddContainer>
             </InfoContainer>
-
         </Wrapper>
         <Newsletter />
         <Footer />
     </Container>
-  )
-}
+  );
+};
 
-export default Product
+export default Product;
