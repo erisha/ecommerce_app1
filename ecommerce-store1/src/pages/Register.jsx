@@ -16,7 +16,7 @@ const Container = styled.div`
     `;
 
 const Wrapper = styled.div`
-    width: 25%;
+    width: 40%;
     padding: 20px;
     background-color: white;
 `;
@@ -28,13 +28,13 @@ const Title = styled.h1`
 
 const Form = styled.form`
     display: flex;
-    flex-direction: column;
+    flex-direction: wrap;
   `;
 
 const Input = styled.input`
     flex: 1;
     min-width: 40%;
-    margin: 10px 0;
+    margin: 20px 10px 0px 0px;
     padding: 10px;
 `;
 
@@ -45,9 +45,6 @@ const Button = styled.button`
     background-color: teal;
     color: white;
     cursor: pointer;
-    margin-bottom: 10px;
-    
-    
 `;
 
 const Register = () => {
