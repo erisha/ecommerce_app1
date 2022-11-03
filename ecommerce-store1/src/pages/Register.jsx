@@ -46,6 +46,8 @@ const Button = styled.button`
     color: white;
     cursor: pointer;
     margin-bottom: 10px;
+    
+    
 `;
 
 const Register = () => {
