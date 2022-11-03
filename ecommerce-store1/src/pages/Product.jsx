@@ -62,7 +62,7 @@ const AddContainer = styled.div`
     justify-content: space-between;
 
 `;
-const AmountContainer = styled.option`
+const AmountContainer = styled.div`
     display: flex;
     align-items: center;
     font-weight: 700;
