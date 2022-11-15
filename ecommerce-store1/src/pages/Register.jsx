@@ -19,8 +19,7 @@ const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
   background-color: white;
-  ${mobile({ width: "75%" })}
-
+  ${mobile({ width: '75%' })}
 `;
 
 const Title = styled.h1`
@@ -30,7 +29,7 @@ const Title = styled.h1`
 
 const Form = styled.form`
   display: flex;
-  flex-direction: wrap;
+  flex-direction: column;
 `;
 
 const Input = styled.input`
